@@ -21,7 +21,7 @@ namespace Calculator.Test
 		[TestMethod]
 		public void TestCalculatorInitialization()
 		{
-			Assert.AreEqual(0, _calculator.Value);
+			Assert.AreEqual(1, _calculator.Value);
 		}
 
 		[TestMethod]
